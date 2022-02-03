@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    background-color: #c9c9b766;
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+section {
+    margin-top: 80px;
+}
+
+.container, .footer {
+    display: flex;
+    justify-content: space-between ;
+    width: 1200px;
+    margin: -1px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+    margin-top: 11px;
+}
+
+.footer {
+    margin-bottom: 11px;
+}
+
+.container-left, .footer-left {
+    background-color:#efe9ef;
+    width: 27%;
+    padding: 20px;
+}
+
+#photo img {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+#photo {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.container-right, .footer-right {
+    background-color: #e7e2cd;
+    width: 72%;
+    padding-left: 25px;
+
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+
+}
+
+h1 {
+    padding-top: 35px;
+    font-size: 32px;
+}
+
+#hat p {
+    font-size: 25px;  
+}
+
+#hat p::after {
+    width: 97%;
+    height: 1px;
+    display: block;
+    background-color: black;
+    content: "";
+    margin-top: 20px;
+}
+
+.section-content {
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.section-content_left {
+    width: 270px;
+    font-weight: bold;
+}
+
+.section-content::before {
+    width: 97%;
+    height: 1px;
+    display: block;
+    background-color: black;
+    content: "";
+    position: absolute;
+    top: 0;
+}   
+
+.section-content_right {
+    width: 70%;
+}
+.references-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.container-left h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container-left h2::after {
+    width: 98%;
+    height: 1px;
+    display: block;
+    background-color: black;
+    content: "";
+    margin-top: 20px;
+ 
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-item_icon {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .4s;
+}
+.contact-item_icon:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+#icon-phone {
+    background-image: url(/assets/img/svg/icons8-phone.svg);
+}
+
+#icon-mail {
+    background-image: url(/assets/img/svg/icons8-mail.svg);
+}
+
+#icon-telegram {
+    background-image: url(/assets/img/svg/icons8-telegram-app.svg);
+}
+
+.contact-item a {
+    line-height: 30px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+    transition: all 1s;
+}
+
+.contact-item a:hover, .section-works a:hover {
+    cursor: pointer;
+    color: rgb(55, 29, 116);
+    text-decoration: underline;
+}
+
+.section-skills li {
+    margin-bottom: 10px;
+}
+
+.section-works a {
+    text-decoration: none;
+    color: #000;
+    transition: all 1s;
+}
+
+.section-works li {
+    margin-bottom: 10px;
+}
+
+.footer-left img {
+    width: 220px;
+}
+
+.footer-left {
+    text-align: center;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
+
+.footer-right_icon {
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .4s;
+}
+
+.footer-right_icon:hover {
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(359deg) brightness(105%) contrast(100%);
+}
+
+#icon-youtube {
+    background-image: url(/assets/img/svg/youtube.svg);
+}
+
+#icon-github {
+    background-image: url(/assets/img/svg/igithub.svg);
+}
+
+#icon-js {
+    background-image: url(/assets/img/svg/javascript.svg);
+}
+
+.footer-right p {
+    margin-top: 35px;
+}
+
+
+
+
