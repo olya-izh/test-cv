@@ -136,15 +136,15 @@ h1 {
 }
 
 #icon-phone {
-    background-image: url(/assets/img/svg/icons8-phone.svg);
+    background-image: url(./assets/img/svg/icons8-phone.svg);
 }
 
 #icon-mail {
-    background-image: url(/assets/img/svg/icons8-mail.svg);
+    background-image: url(./assets/img/svg/icons8-mail.svg);
 }
 
 #icon-telegram {
-    background-image: url(/assets/img/svg/icons8-telegram-app.svg);
+    background-image: url(./assets/img/svg/icons8-telegram-app.svg);
 }
 
 .contact-item a {
@@ -203,15 +203,15 @@ h1 {
 }
 
 #icon-youtube {
-    background-image: url(/assets/img/svg/youtube.svg);
+    background-image: url(./assets/img/svg/youtube.svg);
 }
 
 #icon-github {
-    background-image: url(/assets/img/svg/igithub.svg);
+    background-image: url(./assets/img/svg/igithub.svg);
 }
 
 #icon-js {
-    background-image: url(/assets/img/svg/javascript.svg);
+    background-image: url(./assets/img/svg/javascript.svg);
 }
 
 .footer-right p {
